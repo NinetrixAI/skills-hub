@@ -6,6 +6,7 @@ author: ninetrix
 tags: [browser, automation, web, scraping]
 requires:
   tools: [builtin://shell]
+companion_tool: agent-browser
 ---
 
 # Agent Browser
