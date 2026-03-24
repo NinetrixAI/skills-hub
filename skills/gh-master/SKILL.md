@@ -8,7 +8,7 @@ tags:
 - developer
 - ci-cd
 requires:
-  tools: [gh, builtin://bash]
+  tools: [gh, bash]
 companion_tool: gh
 ---
 

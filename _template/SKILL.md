@@ -5,7 +5,7 @@ description: One-line description     # under 120 chars, shown in search results
 author: your-github-username          # your GitHub username
 tags: [category, specific-tag]        # for search and filtering
 requires:
-  tools: []                           # tools the skill assumes, e.g. [builtin://shell, mcp://duckduckgo]
+  tools: []                           # tools the skill assumes, e.g. [bash, mcp://duckduckgo]
 ---
 
 # Skill Name

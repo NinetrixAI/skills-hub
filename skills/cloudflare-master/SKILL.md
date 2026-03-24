@@ -8,7 +8,7 @@ tags:
 - serverless
 - infrastructure
 requires:
-  tools: [wrangler, cloudflare, builtin://bash]
+  tools: [wrangler, cloudflare, bash]
 companion_tool: wrangler
 ---
 

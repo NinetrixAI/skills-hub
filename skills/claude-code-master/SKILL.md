@@ -5,7 +5,7 @@ description: Teaches agents to use Claude Code CLI in headless print mode — co
 author: ninetrix
 tags: [developer, coding, automation]
 requires:
-  tools: [claude-code, builtin://bash]
+  tools: [claude-code, bash]
 companion_tool: claude-code
 ---
 

@@ -5,7 +5,7 @@ description: Teach agents to automate web browsers via agent-browser CLI — nav
 author: ninetrix
 tags: [browser, automation, web, scraping]
 requires:
-  tools: [builtin://shell]
+  tools: [bash]
 companion_tool: agent-browser
 ---
 

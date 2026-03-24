@@ -9,7 +9,7 @@ tags:
 - email
 - productivity
 requires:
-  tools: [gogcli, builtin://bash]
+  tools: [gogcli, bash]
 companion_tool: gogcli
 ---
 

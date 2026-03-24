@@ -43,8 +43,7 @@ agents:
       - hub://git-workflow@1.0.0
       - ./my-local-skill            # local skills work too
     tools:
-      - name: shell
-        source: builtin://shell
+      - bash
 ```
 
 > **Always pin versions.** `hub://code-review@1.0.0` is required — bare `hub://code-review` is rejected. This ensures your agent builds are reproducible.
@@ -84,9 +83,9 @@ ninetrix skills list                    # show skills used in current agentfile.
 
 | Skill | Description | Tokens | Tools Required |
 |---|---|---|---|
-| [`code-review`](./skills/code-review/) | Systematic code review: security, performance, correctness, style | ~800 | `builtin://shell` |
-| [`git-workflow`](./skills/git-workflow/) | Branch naming, commit messages, PR conventions, merge strategy | ~600 | `builtin://shell` |
-| [`error-handling`](./skills/error-handling/) | Debug → diagnose → fix → verify → report pattern | ~700 | `builtin://shell` |
+| [`code-review`](./skills/code-review/) | Systematic code review: security, performance, correctness, style | ~800 | `bash` |
+| [`git-workflow`](./skills/git-workflow/) | Branch naming, commit messages, PR conventions, merge strategy | ~600 | `bash` |
+| [`error-handling`](./skills/error-handling/) | Debug → diagnose → fix → verify → report pattern | ~700 | `bash` |
 | [`structured-output`](./skills/structured-output/) | Consistent JSON response formatting with validation | ~500 | — |
 | [`long-running-tasks`](./skills/long-running-tasks/) | Breaking down complex tasks, progress checkpoints, timeout handling | ~600 | — |
 
@@ -94,8 +93,8 @@ ninetrix skills list                    # show skills used in current agentfile.
 
 | Skill | Description | Tokens | Tools Required |
 |---|---|---|---|
-| [`devops-deploy`](./skills/devops-deploy/) | Deployment checklists, rollback procedures, health checks | ~900 | `builtin://shell` |
-| [`incident-response`](./skills/incident-response/) | Triage → mitigate → communicate → postmortem workflow | ~800 | `builtin://shell` |
+| [`devops-deploy`](./skills/devops-deploy/) | Deployment checklists, rollback procedures, health checks | ~900 | `bash` |
+| [`incident-response`](./skills/incident-response/) | Triage → mitigate → communicate → postmortem workflow | ~800 | `bash` |
 | [`monitoring-alerts`](./skills/monitoring-alerts/) | Alert evaluation, severity classification, escalation rules | ~600 | — |
 
 ### Communication
@@ -109,9 +108,9 @@ ninetrix skills list                    # show skills used in current agentfile.
 
 | Skill | Description | Tokens | Tools Required |
 |---|---|---|---|
-| [`sql-analyst`](./skills/sql-analyst/) | Query generation, schema understanding, result interpretation | ~900 | `builtin://shell` |
+| [`sql-analyst`](./skills/sql-analyst/) | Query generation, schema understanding, result interpretation | ~900 | `bash` |
 | [`research-agent`](./skills/research-agent/) | Multi-source research with citations and confidence levels | ~800 | `mcp://duckduckgo` |
-| [`data-pipeline`](./skills/data-pipeline/) | ETL patterns, data validation, error recovery | ~700 | `builtin://shell` |
+| [`data-pipeline`](./skills/data-pipeline/) | ETL patterns, data validation, error recovery | ~700 | `bash` |
 
 ### Customer-Facing
 
@@ -136,7 +135,7 @@ description: Systematic code review playbook
 author: your-github-username
 tags: [development, review, security]
 requires:
-  tools: [builtin://shell]
+  tools: [bash]
 ---
 
 # Code Review
@@ -276,7 +275,7 @@ This file is **auto-generated** — never edit it manually. A GitHub Action rebu
       "description": "Systematic code review playbook",
       "author": "ninetrix",
       "tags": ["development", "review", "security"],
-      "requires": { "tools": ["builtin://shell"] },
+      "requires": { "tools": ["bash"] },
       "versions": {
         "1.0.0": {
           "sha256": "a1b2c3d4e5f6...",
@@ -387,5 +386,5 @@ Apache 2.0 — use, modify, and share freely.
 ---
 
 <p align="center">
-  <a href="https://ninetrix.io">ninetrix.io</a> · <a href="https://ninetrix.io/docs">docs</a> · <a href="https://discord.gg/ninetrix">discord</a> · <a href="https://github.com/Ninetrix-ai/ninetrix">cli</a>
+  <a href="https://ninetrix.io">ninetrix.io</a> · <a href="https://ninetrix.io/docs">docs</a> · <a href="https://discord.gg/ninetrix">discord</a> · <a href="https://github.com/Ninetrix-ai/ninetrix">cli</a> · <a href="https://github.com/Ninetrix-ai/python-sdk">python sdk</a> · <a href="https://github.com/Ninetrix-ai/tools-hub">tools hub</a>
 </p>
