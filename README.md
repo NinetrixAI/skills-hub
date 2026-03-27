@@ -5,12 +5,12 @@
 <h1 align="center">Ninetrix Skills Hub</h1>
 
 <p align="center">
-  Community-built skills for <a href="https://github.com/Ninetrix-ai/ninetrix">Ninetrix</a> agents.<br />
+  Community-built skills for <a href="https://github.com/NinetrixAI/Ninetrix">Ninetrix</a> agents.<br />
   Drop-in playbooks that teach your agents <em>how</em> to work — no code required.
 </p>
 
 <p align="center">
-  <a href="https://ninetrix.io/docs/skills">Docs</a> · <a href="#quick-start">Quick Start</a> · <a href="#create-a-skill">Create a Skill</a> · <a href="#available-skills">Browse Skills</a>
+  <a href="https://docs.ninetrix.io/docs/skills">Docs</a> · <a href="#quick-start">Quick Start</a> · <a href="#create-a-skill">Create a Skill</a> · <a href="#available-skills">Browse Skills</a>
 </p>
 
 ---
@@ -386,5 +386,5 @@ Apache 2.0 — use, modify, and share freely.
 ---
 
 <p align="center">
-  <a href="https://ninetrix.io">ninetrix.io</a> · <a href="https://ninetrix.io/docs">docs</a> · <a href="https://discord.gg/ninetrix">discord</a> · <a href="https://github.com/Ninetrix-ai/ninetrix">cli</a> · <a href="https://github.com/Ninetrix-ai/python-sdk">python sdk</a> · <a href="https://github.com/Ninetrix-ai/tools-hub">tools hub</a>
+  <a href="https://ninetrix.io">ninetrix.io</a> · <a href="https://docs.ninetrix.io">docs</a> · <a href="https://discord.gg/V4yFxnptbk">discord</a> · <a href="https://github.com/NinetrixAI/Ninetrix">cli</a> · <a href="https://github.com/NinetrixAI/tools-hub">tools hub</a>
 </p>
